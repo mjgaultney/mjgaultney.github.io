@@ -28,6 +28,7 @@ img {
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
+  font-family: 'Syne Mono', monospace;
   font-size: 25px;
   color: #818181;
   display: block;
@@ -40,9 +41,10 @@ img {
 .main {
   margin-left: 250px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+  padding: 0px 0px;
+  font-family: 'Syne Mono', monospace;
   text-align: center;
-  background-color: white;
+  background-image: url("bricks.jpeg")
 }
 
 @media screen and (max-height: 450px) {
