@@ -1,0 +1,75 @@
+.body {
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-family: 'Syne Mono', monospace;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 250px; /* Same as the width of the sidenav */
+  margin-top: -25px;
+  font-size: 28px; /* Increased text to enable scrolling */
+  font-family: 'Syne Mono', monospace;
+  text-align: center;
+  background-image: url("bricks.jpeg")
+}
+
+@media screen and (max-height: 500px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.myContainer {
+  width: 2000px;
+  margin: 30px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-column: 150px 150px;
+  gap: 30px;
+}
+
+.item {
+  background-color: orangered;
+  padding: 10px;
+  color: white;
+
+}
+.item--1 {
+  grid-column: 1 / 3;
+}
+
+.panel-custom {
+  background: rgba(239, 243, 239, 0.5);
+  margin-top: 30px;
+}
